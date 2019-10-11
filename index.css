@@ -1,0 +1,197 @@
+#header
+{
+	width:100%;
+	background-color:#000000;
+	margin-bottom:16px;
+	font-family:微软雅黑;
+	color:#FFFFFF;
+	line-height:24px;
+}
+
+#header ul
+{
+	display:inline-block;
+}
+
+#header li
+{
+	margin-left:12px;
+	margin-right:12px;
+	display:inline-block;
+}
+
+#header a
+{
+	text-decoration:none;
+	font-family:微软雅黑;
+	color:rgb(255,255,255);
+	margin-left:12px;
+	margin-right:12px;
+	display:inline-block;
+}
+
+#box-container
+{
+	width:1070px;
+	height: 1200px;
+	margin:0 auto;
+}
+
+#index-content
+{
+	border: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+	float: left;
+	width:720px;
+	height: 1100px;
+}
+
+#content-recommend
+{
+	height: 60px;
+	width: 720px;
+	margin: 0;
+}
+
+#content-recommend a
+{
+	margin-left: 50px;
+	line-height: 60px;
+	text-decoration: none;
+	display: inline;
+	color: #000000;
+	position: relative;
+	top:5px;
+	font-size: 20px;
+	font-weight: 500;
+}
+
+#real-content
+{
+	background-color: #EEEEEE;
+	width: 620px;
+	height: 1000px;
+	margin: 10px auto;
+}
+
+.content-item
+{
+	width: 620px;
+	height: 124px;
+	margin: 0px;
+	border-bottom: #BBBBBB;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+.content-item img
+{
+	position: relative;
+	float: left;
+	width: 156px;
+	height: 101.8px;
+	margin: 11.1px 10px;
+}
+
+.content-item a
+{
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top:30px;
+	text-decoration: none;
+}
+
+.content-item p
+{
+	color: #888888;
+	position: relative;
+	font-size: 14px;
+	top:30px;
+}
+
+.content-item a:link
+{
+	color: #222;
+}
+
+.content-item a:visited
+{
+	color: #BBBBBB;
+}
+
+.content-item a:hover
+{
+	color: royalblue;
+}
+
+.content-item a:active
+{
+	color: royalblue;
+}
+
+
+
+#recommend
+{
+	float: right;
+	width:320px;
+	height: 1105px;
+}
+
+#rec-item
+ {
+	 border: solid;
+	 border-color: #BBBBBB;
+	 border-width: 1px;
+	 border-width: 1px;
+	 width:280px;
+	 height: 400px;
+	 margin: 20px auto;
+ }
+ 
+ #write
+ {
+	 position: relative;
+	 width:220px;
+	 height: 80px;
+	 margin: 20px auto;
+ }
+ 
+ #write h2
+ {
+	 line-height: 80px;
+	 text-align: center;
+	 background-color: #EEEEEE;
+ }
+ 
+ #other
+ {
+	 position: relative;
+	 width: 220px;
+	 height: 260px;
+	 margin: 20px auto;
+ }
+ 
+ #other textarea
+ {
+	 border: #EEEEEE;
+	 padding: 13px 19px;
+	 font-size: 14px;
+	background-color: #EEEEEE;
+	resize: none;
+	position: relative;
+	width: 182px;
+	height: 224px;
+	margin: 0px;
+ }
+ 
+ #ui-modify
+ {
+	 margin: 10px;
+	 line-height: 30px;
+	 font-family: helvetica;
+	 color: #666;
+	 font-size: 16px;
+	 text-align: center;
+ }
